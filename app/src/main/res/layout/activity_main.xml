@@ -33,6 +33,7 @@
             android:hint="The place that you will visit in the future"
             android:textColor="@color/black"
             android:textSize="20sp"
+            android:background=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imv"
