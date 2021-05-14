@@ -77,10 +77,6 @@ public class CustomTravelAdapter extends BaseAdapter {
             remove(places.get(position));
         });
 
-        convertView.findViewById(R.id.ivModify).setOnClickListener(v -> {
-            update(places.get(position));
-        });
-
         return convertView;
     }
 }

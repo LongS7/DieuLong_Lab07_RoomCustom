@@ -23,10 +23,4 @@ public interface PlaceDao {
 
     @Insert
     void insert(Place ...places);
-
-    @Delete
-    void delete(Place place);
-
-    @Update
-    void update(Place place);
 }
